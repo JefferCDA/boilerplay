@@ -1,0 +1,7 @@
+{
+  "db_name": {
+    "createDb": "sequelize-cli --config ./config/sequelize/databases.js --options-path ./config/sequelize/rc/sequelizerc.db_name.js --env db_name db:create",
+    "migrateTables": "sequelize-cli --config ./config/sequelize/databases.js --options-path ./config/sequelize/rc/sequelizerc.db_name.js --env db_name db:migrate",
+    "addSeeds": "sequelize-cli --config ./config/sequelize/databases.js --options-path ./config/sequelize/rc/sequelizerc.db_name.js --env db_name db:seed:all"
+  }
+}
