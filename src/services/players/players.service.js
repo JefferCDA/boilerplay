@@ -15,5 +15,4 @@ module.exports = {
     const result = await playerOps.readAll(order, page, 10, playerParameters);
     return { result };
   },
-
 };

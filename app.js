@@ -33,7 +33,6 @@ app.use((req, res, next) => {
 });
 
 app.use('/api', api);
-
 const server = http.createServer(app);
 
 server.listen(webPort, '0.0.0.0', () => {
